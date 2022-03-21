@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins',sans-serif;
+    color: gray;
+}
+body{
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    border: 4px gray solid;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+    
+}
+.top ul .link{
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+   text-align: right;
+  
+}
+
+.top ul{
+    
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+    }
+.education h1{
+    color: blue;
+}
+.education span{
+   font-size: 0.8rem;
+   padding: 5px;
+   
+}
+
+.education p{
+    text-align: center;
+    
+}
+.top.second-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    text-decoration: none;
+    
+    }
+    
+    .expirence h1{
+        color: red;
+    }
+    .expirence span{
+       font-size: 0.8rem;
+    }
+    .expirence span.side{
+        position: absolute;
+        right: 40px;
+    }
+    .expirence p{
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .Achivements h1{
+        color: green;
+    }
+    .Achivements span{
+       font-size: 0.8rem;
+    }
+    .Achivements p{
+        text-align: center;
+        padding: 10px;
+    }
+    .Achivements p{
+        text-align: center;
+        padding: 5px;
+    }
+
+    .Extra h1{
+        color: rgb(215, 218, 36);
+    }
+    .Extra span{
+       font-size: 0.8rem;
+    }
+    .Extra p{
+        text-align: center;
+        padding: 10px;
+    }
+    .Extra p{
+        text-align: center;
+        padding: 5px;
+    }
